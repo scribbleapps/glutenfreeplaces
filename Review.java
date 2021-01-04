@@ -21,8 +21,7 @@ public class Review {
     private String userEmail;
     private String userName;
 
-    public Review() {
-    }
+    public Review() {}
 
     // Getters
     public String getPlaceID() {
@@ -73,7 +72,6 @@ public class Review {
     public void setReview(String review) {
         this.review = review;
     }
-
 
     public void setDate(String date) {
         this.date = date;
